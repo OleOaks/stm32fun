@@ -130,13 +130,12 @@ int main(void)
 	  }
 
 	  if (now - last_tick >= 1000) {
-		  printf("Tick %lu (loop count = %lu)\n", now / 1000, loop_cnt);
+		  printf("Tick %lu (loop count = %lu\n", now / 1000, loop_cnt);
 
 		  loop_cnt = 0;
 		  last_tick = now;
 	  }
 
-	  ++loop_cnt;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
