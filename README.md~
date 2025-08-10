@@ -1,0 +1,27 @@
+# stm32fun
+stm32 Beginners Fun
+
+# To copy an STM32CubeIDE project:
+1. Make sure the new name does not exist in the workspace, if it does, then
+
+delete it inside the IDE. Make sure old project is error free.
+
+2. Copy the folder in explorer
+
+3. Rename the folder in explorer
+
+4. Edit .project using vi or other text editor and rename
+
+  <name>OLD_PROJECT_NAME</name> to <name>NEW_PROJECT_NAME</name>
+
+  in line 3
+
+5. Edit .cproject
+
+  Change all references from OLD_PROJECT_NAME to NEW_PROJECT_NAME
+
+6. Start IDE by clicking on .project
+
+7. Import should start automatically.
+
+8. Use your new project and enjoy!
